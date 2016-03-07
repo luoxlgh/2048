@@ -1,0 +1,15 @@
+*{margin: 0px;padding: 0px;font-family: "Arial";}
+
+#header{width: 100%;margin: 0px auto;text-align: center;}
+#header h1{font-size: 45px;margin: 20px auto;}
+#newGameBtn{display: block;width: 100px;height: 50px;line-height: 50px;text-align: center;
+	background-color: #8f7a66;color: white;border-radius: 10px;text-decoration: none;margin: 10px auto;}
+#newGameBtn:hover{background-color: #9f8b77;}
+#header p{font-size: 15px;margin: 10px auto;}
+
+#container{width: 435px;height: 435px;margin: 10px auto;background-color: #bbada0;border-radius: 20px;position: relative;}
+.gridCell{width: 90px;height: 90px;background-color: #ccc0b3;border-radius: 10px;position: absolute;}
+
+.numCell{width: 90px;height: 90px;border-radius: 10px;line-height: 90px;text-align: center; position: absolute;font-size: 40px;}
+
+#footer{font-size: 15px;text-align: center;}
